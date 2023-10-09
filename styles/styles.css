@@ -109,18 +109,3 @@ li a {
        "histex casa3 casa4" 
     ;
 }
-.submenu:hover .subcontenido {
-    display: block;
-    position: absolute;
-    background-color: #fff; 
-    border: 1px solid #ccc; 
-    z-index: 1; 
-    left: 0;
-}
-.subcontenido {
-    display: none;
-    padding: 10px; 
-    font-size: 14px;
-    position: absolute;
-    top: 100%;
-}
