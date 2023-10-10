@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Sistema</title>
 </head>
@@ -29,8 +30,34 @@
         </nav>
     </header>
     <main class="cuerpo">
-        <!-- Título principal -->
-        
+        <div class="container">
+            <h1 class="text-center">Contacto</h1>
+              <div class="text-consul">
+                    <h2>Envíanos tu consulta</h2>
+                    <p>En este espacio podrás contactarte con nosotros para consultar lo que necesites saber
+                       sobre todo el proceso de la empresa así como también para compartir con nosotros tu 
+                       exeperiencia con el fin de ayudar a otros a tener mayor conocimiento sobre que esperar
+                       a a hora de construir con Márquez y Asociados</p>
+              </div>
+              <div class="d-flex justify-content-center">
+                    <form style="width: 500px;">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Dejános acá tu consulta"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            
     </main>
     <footer class="footer">
         <div class="redes-sociales">
@@ -39,5 +66,6 @@
         </div>
         <p class="derechos-reservados">© 2023 Conociendo a Márquez & Asociados. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

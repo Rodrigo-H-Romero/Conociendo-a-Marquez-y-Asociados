@@ -68,33 +68,23 @@ li a {
     grid-area: imagen;
     align-items: center;
 }
-.casa1 {
+.casa1, .casa2, .casa3, .casa4 {
     width: 300px;
     height: 200px;
-    grid-area: casa1;
     border-radius: 10%;
     margin: 10px;
+}
+.casa1 {
+    grid-area: casa1;
 }
 .casa4 {
-    width: 300px;
-    height: 200px;
     grid-area: casa4;
-    border-radius: 10%;
-    margin: 10px;
 }
 .casa3 {
-    width: 300px;
-    height: 200px;
     grid-area: casa3;
-    border-radius: 10%;
-    margin: 10px;
 }
 .casa2 {
-    width: 300px;
-    height: 200px;
     grid-area: casa2;
-    border-radius: 10%;
-    margin: 10px;
 }
 .contenedor {
     height: 150vh;
@@ -106,6 +96,36 @@ li a {
        "texto-intro texto-intro imagen"
        "historia historia historia"
        "histex casa1 casa2"
-       "histex casa3 casa4" 
-    ;
+       "histex casa3 casa4";
+}
+.formulario {
+    width: 300px;
+}
+.text-center {
+    color: antiquewhite;
+    font-family: 'Days One', sans-serif;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+.text-consul {
+    font-family: 'Days One', sans-serif;
+    text-decoration: none;
+    text-overflow: unset;
+    color: inherit;
+}
+.text-consul h2, p {
+    color: antiquewhite;
+}
+.mb-3, .submit, .btn {
+    color: antiquewhite;
+    font-family: 'Days One', sans-serif;
+}
+.btn {
+    border-color: blue;
+    color: black;
+    background-color: white;
+}
+.btn:hover {
+    font-size: large;
+    background-color: white;
 }
