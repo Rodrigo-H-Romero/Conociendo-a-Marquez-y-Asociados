@@ -384,6 +384,7 @@ p {
         text-align: center;
         align-items: center;
         height: 70px;
+        justify-content: space-around;
     }
     header a img {
         margin-bottom: none;
@@ -392,7 +393,7 @@ p {
         margin-right: 5px;
     }
     li {
-        font-size: 40%;
+        font-size: 53%;
     }
     .logoinicio {
         height: 20px;
@@ -425,17 +426,20 @@ p {
         font-size: 10px;
       }
       
-      .casa1, .casa2, .casa3, .casa4 {
+      .casa2, .casa4 {
         max-width: 100%;
-        height: auto;
+        height: 200px;
         display: block;
       }
+      .casa1 , .casa3 {
+        display: none;
+      }
       .contenedor2 h2 {
-        font-size: 14px;
+        font-size: 17px;
         margin-bottom: 5px;
       }
     
       .contenedor2 p {
-        font-size: 10px;
+        font-size: 13px;
       }
 }
