@@ -15,7 +15,7 @@ header {
     color: black;
     padding: 10px;
     text-align: center;
-    font-family: 'Days One', sans-serif;
+    font-family: 'Days One', sans-serif; 
 }
 .icono-red-social {
     text-decoration: none;
@@ -56,12 +56,15 @@ li a {
     font-family: 'Days One', sans-serif;
     text-align: left;
     margin-right: 25%;
+    margin-top: 5%;
 }
 .historia {
     color: antiquewhite;
     grid-area: historia;
     font-family: 'Days One', sans-serif;
     text-align: left;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 .histex {
     color: antiquewhite;
@@ -121,6 +124,49 @@ li a {
         "congelar congelar congelar"
         "solicitar solicitar solicitar"
     ;
+}
+.progra {
+    grid-area: progra;
+    
+}
+.textoprogra {
+    grid-area: textoprogra;
+    margin-top: 13%;
+}
+.segui {
+    grid-area: segui;
+    
+}
+.textosegui {
+    grid-area: textosegui;
+    margin-top: 13%;
+}
+.entrega {
+    grid-area: entrega;
+    
+}
+.textoentre {
+    grid-area: textoentre;
+    margin-top: 13%;
+}
+.contenedor3 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-areas:
+        "progra textoprogra"
+        "segui textosegui"
+        "entrega textoentrega"
+        
+    ;
+}
+.imagenpro, .imagensegui, .imagentre {
+    width: 500px;
+    height: 300px;
+    border-radius: 40%;
+    border: solid;
+    margin-left: 5%;
 }
 .ingreso {
     grid-area: ingreso;
@@ -250,11 +296,92 @@ p {
 .container {
     margin-bottom: 70px;
 }
-
 #carouselExampleIndicators {
     margin-top: 50px;
 }
 .centrar-imagen {
     display: block;
     margin: 0 auto;
+}
+.contenedor4 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr 5fr 5fr;
+    grid-template-areas:
+        "letra-chica letra-chica"
+        "tiempo adicionales"
+        "staff quien" 
+}
+.letra-chica {
+    grid-area: letra-chica;
+}
+.tiempo {
+    grid-area: tiempo;
+}
+.staff {
+    grid-area: staff;
+}
+.adicionales {
+    grid-area: adicionales;
+}
+.quien {
+    grid-area: quien;
+}
+.tiempo, .staff, .adicionales, .quien {
+    border: solid rgb(28, 28, 141);
+    border-radius: 7%;
+    margin: 3%;
+    background-color: rgb(76, 100, 100);
+    color: black;
+}
+.contenedor5 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "exper exper"
+        "opinion1 opinion2"
+        "opinion3 opinion4"
+        "opinion5 opinion6"
+    ;
+}
+.exper {
+    grid-area: exper;
+    margin-bottom: 8%;
+}
+.opinion1 {
+    grid-area: opinion1;
+}
+.opinion2 {
+    grid-area: opinion2;
+}
+.opinion3 {
+    grid-area: opinion3;
+}
+.opinion4 {
+    grid-area: opinion4;
+}
+.opinion5 {
+    grid-area: opinion5;
+}
+.opinion6 {
+    grid-area: opinion6;
+}
+.opinion1, .opinion2, .opinion3, .opinion4, .opinion5, .opinion6 {
+    font-style: italic;
+    border: solid;
+    border-bottom-right-radius: 8%;
+    border-color: whitesmoke;
+    padding: 3%;
+    margin: 5%;
+}
+
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 576px) {
+
 }
