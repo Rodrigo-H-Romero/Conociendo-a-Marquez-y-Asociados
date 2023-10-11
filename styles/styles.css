@@ -397,4 +397,46 @@ p {
     .logoinicio {
         height: 20px;
     }
+    .imagen {
+        height: 150px;
+        width: 150px;
+    }
+    .contenedor {
+        max-width: 80%;
+        flex-direction: column;
+      }
+    
+      .titulo {
+        font-size: 20px;
+      }
+    
+      .texto-intro {
+        font-size: 14px;
+      }
+    
+      .historia {
+        font-size: 20px;
+      }
+      .historia,
+      .histex {
+        text-align: center;
+      }
+      .histex {
+        font-size: 10px;
+      }
+      
+      .casa1, .casa2, .casa3, .casa4 {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 10px;
+      }
+      .contenedor2 h2 {
+        font-size: 14px; /* Reduce el tamaño de h2 */
+        margin-bottom: 5px;
+      }
+    
+      .contenedor2 p {
+        font-size: 10px; /* Reduce el tamaño de p */
+      }
 }
