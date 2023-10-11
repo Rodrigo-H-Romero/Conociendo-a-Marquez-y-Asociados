@@ -378,7 +378,7 @@ p {
     margin: 5%;
 }
 
-@media screen and (min-width: 480px) and (max-width: 576px) {
+@media screen and (min-width: 380px) and (max-width: 576px) {
     header {
         flex-direction: column;
         text-align: center;
@@ -389,10 +389,10 @@ p {
         margin-bottom: none;
     }
     nav li {
-        margin-right: 10px;
+        margin-right: 5px;
     }
     li {
-        font-size: 60%;
+        font-size: 40%;
     }
     .logoinicio {
         height: 20px;
@@ -429,14 +429,13 @@ p {
         max-width: 100%;
         height: auto;
         display: block;
-        margin: 10px 10px;
       }
       .contenedor2 h2 {
-        font-size: 14px; /* Reduce el tamaño de h2 */
+        font-size: 14px;
         margin-bottom: 5px;
       }
     
       .contenedor2 p {
-        font-size: 10px; /* Reduce el tamaño de p */
+        font-size: 10px;
       }
 }
