@@ -378,7 +378,7 @@ p {
     margin: 5%;
 }
 
-@media screen and (min-width: 380px) and (max-width: 576px) {
+@media screen and (min-width: 380px) and (max-width: 480px) {
     header {
         flex-direction: column;
         text-align: center;
