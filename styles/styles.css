@@ -378,10 +378,23 @@ p {
     margin: 5%;
 }
 
-
-
-
-
 @media screen and (min-width: 480px) and (max-width: 576px) {
-
+    header {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 70px;
+    }
+    header a img {
+        margin-bottom: none;
+    }
+    nav li {
+        margin-right: 10px;
+    }
+    li {
+        font-size: 60%;
+    }
+    .logoinicio {
+        height: 20px;
+    }
 }
