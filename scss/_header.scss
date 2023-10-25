@@ -1,0 +1,21 @@
+header {
+    background: linear-gradient(to right, $header-background-color, $header-gradient-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    li {
+      display: inline-block;
+      margin: 20px;
+      font-size: 120%;
+        a {
+        font-family: 'Days One', sans-serif;
+        text-decoration: none;
+        text-overflow: unset;
+        color: $header-text-color;
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }

@@ -1,0 +1,49 @@
+.contenedor3 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-areas:
+        "progra textoprogra"
+        "segui textosegui"
+        "entrega textoentrega"
+        
+    ;
+}
+
+.progra {
+    grid-area: progra;
+    
+}
+.textoprogra {
+    color: antiquewhite;
+    grid-area: textoprogra;
+    margin-top: 13%;
+}
+.segui {
+    grid-area: segui;
+    
+}
+.textosegui {
+    color: antiquewhite;
+    grid-area: textosegui;
+    margin-top: 13%;
+}
+.entrega {
+    grid-area: entrega;
+    
+}
+.textoentre {
+    color: antiquewhite;
+    grid-area: textoentre;
+    margin-top: 13%;
+}
+
+.imagenpro, .imagensegui, .imagentre {
+    width: 500px;
+    height: 300px;
+    border-radius: 40%;
+    border: solid;
+    margin-left: 5%;
+}
+
