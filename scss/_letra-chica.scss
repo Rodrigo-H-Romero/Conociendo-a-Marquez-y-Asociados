@@ -1,0 +1,33 @@
+.contenedor4 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr 5fr 5fr;
+    grid-template-areas:
+        "letra-chica letra-chica"
+        "tiempo adicionales"
+        "staff quien" 
+}
+
+.letra-chica {
+    grid-area: letra-chica;
+}
+.tiempo {
+    grid-area: tiempo;
+}
+.staff {
+    grid-area: staff;
+}
+.adicionales {
+    grid-area: adicionales;
+}
+.quien {
+    grid-area: quien;
+}
+.tiempo, .staff, .adicionales, .quien {
+    border: solid rgb(28, 28, 141);
+    border-radius: 7%;
+    margin: 3%;
+    background-color: rgb(76, 100, 100);
+    color: antiquewhite;
+}

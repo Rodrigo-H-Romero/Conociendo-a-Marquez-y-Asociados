@@ -1,0 +1,17 @@
+@keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    opacity: 0;
+    animation: aparecer 1s forwards;
+  }
+  .texto-animado {
+    opacity: 0;
+    animation: aparecer 4s forwards;
+  }

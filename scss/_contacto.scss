@@ -1,0 +1,45 @@
+.container {
+    margin-bottom: 70px;
+}
+.text-center {
+    color: antiquewhite;
+    font-family: 'Days One', sans-serif;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+.text-consul {
+    font-family: 'Days One', sans-serif;
+    text-decoration: none;
+    text-overflow: unset;
+    color: inherit;
+}
+.text-consul h2, p {
+    color: antiquewhite;
+}
+
+.mb-3, .submit, .btn {
+    color: antiquewhite;
+    font-family: 'Days One', sans-serif;
+}
+.btn {
+    border-color: blue;
+    color: black;
+    background-color: white;
+}
+.btn:hover {
+    font-size: large;
+    background-color: white;  
+}
+
+#carouselExampleIndicators {
+    margin-top: 50px;
+}
+.centrar-imagen {
+    display: block;
+    margin: 0 auto;
+}
+
+.imagaleria {
+    width: 500px;
+    height: 400px; 
+}

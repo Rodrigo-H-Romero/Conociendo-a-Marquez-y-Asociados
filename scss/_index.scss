@@ -21,6 +21,7 @@
   .texto-intro {
     grid-area: texto-intro;
     margin-right: 25%;
+    margin-left: 10%;
     margin-top: 5%;
   }
   
@@ -39,7 +40,7 @@
     border-bottom-right-radius: 30%;
     border: 2px solid antiquewhite;
     border-style: double;
-    grid-area: imagen;
+    
   }
   
   .casa1, .casa2, .casa3, .casa4 {
@@ -77,3 +78,6 @@
       "histex casa1 casa2"
       "histex casa3 casa4";
   }
+  
+  
+  
