@@ -75,13 +75,13 @@
 }
 
 h2 {
-    color: antiquewhite;
-    font-family: 'Days One', sans-serif;
+    color: $primary-color;
+    font-family: $font-family;
     text-align: center
     ;
  }
  p {
-     font-family: 'Days One', sans-serif;
+     font-family: $font-family;
      padding: 2%;
      text-align: center;     
  }

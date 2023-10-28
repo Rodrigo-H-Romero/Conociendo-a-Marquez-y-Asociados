@@ -1,29 +1,29 @@
 .container {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .text-center {
-    color: antiquewhite;
-    font-family: 'Days One', sans-serif;
+    color: $primary-color;
+    font-family: $font-family;
     padding-bottom: 3%;
     padding-top: 5%;
 }
 .text-consul {
-    font-family: 'Days One', sans-serif;
+    font-family: $font-family;
     text-decoration: none;
     text-overflow: unset;
     color: inherit;
 }
 .text-consul h2, p {
-    color: antiquewhite;
+    color: $primary-color;
 }
 
 .mb-3, .submit, .btn {
-    color: antiquewhite;
-    font-family: 'Days One', sans-serif;
+    color: $primary-color;
+    font-family: $font-family;
 }
 .btn {
     border-color: blue;
-    color: black;
+    color: $secondary-color;
     background-color: white;
 }
 .btn:hover {
@@ -31,15 +31,13 @@
     background-color: white;  
 }
 
-#carouselExampleIndicators {
-    margin-top: 50px;
-}
-.centrar-imagen {
-    display: block;
-    margin: 0 auto;
-}
+.img-fluid {
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+  }
 
-.imagaleria {
-    width: 500px;
-    height: 400px; 
-}
+.img-fluid:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s;
+  }

@@ -16,7 +16,8 @@
     
 }
 .textoprogra {
-    color: antiquewhite;
+    color: $primary-color;
+    font-family: $font-family;
     grid-area: textoprogra;
     margin-top: 13%;
 }
@@ -25,7 +26,8 @@
     
 }
 .textosegui {
-    color: antiquewhite;
+    color: $primary-color;
+    font-family: $font-family;
     grid-area: textosegui;
     margin-top: 13%;
 }
@@ -34,7 +36,8 @@
     
 }
 .textoentre {
-    color: antiquewhite;
+    color: $primary-color;
+    font-family: $font-family;
     grid-area: textoentre;
     margin-top: 13%;
 }

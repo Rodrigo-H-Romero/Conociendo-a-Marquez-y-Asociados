@@ -1,8 +1,10 @@
 @import "variables";
 
-@import "maps";
-
 @import "reset";
+
+@import "mixins";
+
+@import "mediaqueries";
 
 @import "animaciones";
 
@@ -22,4 +24,3 @@
 
 @import "contacto";
 
-@import "mediaqueries"

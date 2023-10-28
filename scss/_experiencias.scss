@@ -1,10 +1,9 @@
 .exper {
     font-size: x-large;
     margin-bottom: 10%;
-}
-
-
-.card {
+  }
+  
+  .card {
     margin-bottom: 20px;
   }
   
@@ -13,22 +12,19 @@
     padding: 20px;
   }
   
-  .card-text {
-    font-size: 16px;
-    line-height: 1.5;
-    font-style: italic;
-  }
-
-  .card-img-bottom {
-    max-width: 100%;
-    height: auto;
-    border-top: 1px solid #dee2e6;
-  }
-
   .card-title {
     color: #007bff;
   }
   
   .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
     color: #333;
+  }
+  
+  .card-img-bottom {
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid #dee2e6;
   }

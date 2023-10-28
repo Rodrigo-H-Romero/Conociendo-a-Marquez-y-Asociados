@@ -1,16 +1,4 @@
 .footer {
-    background: linear-gradient(to right, white, rgb(166, 166, 245));
-    color: black;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Days One', sans-serif; 
-}
-.icono-red-social {
-    text-decoration: none;
-    text-overflow: unset;
-    color: inherit;
-    
-}
-.derechos-reservados {
-    color: black;
-}
+    @include estilo-footer;
+  }
+  
