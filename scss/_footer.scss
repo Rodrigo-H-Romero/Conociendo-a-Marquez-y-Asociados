@@ -1,4 +1,20 @@
 .footer {
-    @include estilo-footer;
+  background: linear-gradient(to right, white, rgb(166, 166, 245));
+  color: $secondary-color;
+  padding: 10px;
+  text-align: center;
+  font-family: $font-family;
+  .icono-red-social {
+    text-decoration: none;
+    text-overflow: unset;
+    color: inherit;
   }
+  .derechos-reservados {
+    color: $secondary-color;
+  }
+  p {
+      color: $secondary-color;
+  }
+}
+
   

@@ -28,3 +28,42 @@
     height: auto;
     border-top: 1px solid #dee2e6;
   }
+
+  @media screen and (min-width: 380px) and (max-width: 480px) {
+
+    .exper {
+      font-size: smaller;
+      margin-bottom: 10%;
+      padding: 5%;
+    }
+    
+    .card {
+      margin-bottom: 10px;
+    }
+    
+    .card-body {
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+    
+    .card-title {
+      color: #007bff;
+    }
+    
+    .card-text {
+      font-size: 12px;
+      line-height: 1;
+      font-style: italic;
+      color: #333;
+    }
+    
+    .card-img-bottom {
+      max-width: 70%;
+      height: auto;
+      border-top: 1px solid #dee2e6;
+    }
+  
+
+
+
+  }

@@ -31,3 +31,30 @@
     background-color: rgb(76, 100, 100);
     color: $primary-color;
 }
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+
+    .letra-chica {
+        font-size: smaller;
+        padding: 5%;
+    }
+
+    .contenedor4 {
+        height: 150vh;
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
+        grid-template-areas:
+            "letra-chica letra-chica"
+            "tiempo tiempo"
+            "adicionales adicionales"
+            "staff staff"
+            "quien quien" 
+    }
+
+        .tiempo, .adicionales, .staff, .quien {
+            font-size: smaller;
+        }
+    
+
+}

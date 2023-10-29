@@ -79,5 +79,43 @@
       "histex casa3 casa4";
   }
   
+  @media screen and (min-width: 380px) and (max-width: 480px) {
   
-  
+    .imagen {
+        height: 150px;
+        width: 150px;
+    }
+    .contenedor {
+        max-width: 80%;
+        flex-direction: column;
+      }
+    
+      .titulo {
+        font-size: 20px;
+      }
+    
+      .texto-intro {
+        font-size: 14px;
+      }
+    
+      .historia {
+        font-size: 20px;
+      }
+      .historia,
+      .histex {
+        text-align: center;
+      }
+      .histex {
+        font-size: 10px;
+      }
+      
+      .casa2, .casa4 {
+        max-width: 100%;
+        height: 200px;
+        display: block;
+      }
+      .casa1 , .casa3 {
+        display: none;
+      }
+
+  }
