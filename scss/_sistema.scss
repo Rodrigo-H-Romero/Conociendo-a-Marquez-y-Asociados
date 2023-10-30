@@ -1,7 +1,6 @@
   .titulo {
-    grid-area: titulo;
-    text-align: center;
-    padding: 3%;
+    @include title-styles;
+
   }
 
   .contenedor2 {
@@ -17,61 +16,39 @@
         "solicitar solicitar solicitar"
     ;
 }
+
+.ingreso, .docemeses, .veinmeses, .treinmeses, .tiempos, .congelar, .solicitar {
+    @include card-styles;
+  }
+
+
 .ingreso {
     grid-area: ingreso;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+   
 }
 .docemeses {
     grid-area: docemeses;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+   
 }
 .veinmeses {
     grid-area: veinmeses;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+   
 }
 .treinmeses {
     grid-area: treinmeses;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+    
 }
 .tiempos {
     grid-area: tiempos;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+   
 }
 .congelar {
     grid-area: congelar;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+    
 }
 .solicitar {
     grid-area: solicitar;
-    border: solid;
-    border-radius: 5%;
-    background-color: rgb(11, 29, 68);
-    color: white;
-    margin: 3%;
+    
 }
 
 h2 {
@@ -96,4 +73,6 @@ h2 {
     .contenedor2 p {
       font-size: 10px;
     }
+
+
 }

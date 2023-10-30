@@ -1,0 +1,20 @@
+@mixin card-styles {
+    border: solid;
+    border-radius: 5%;
+    background-color: rgb(11, 29, 68);
+    color: white;
+    margin: 3%;
+  }
+
+@mixin font-center-styles {
+   font-family: $font-family;
+   text-align: center;
+  }
+
+
+@mixin title-styles {
+   color: antiquewhite;
+   @include font-center-styles;
+   text-align: center;
+   padding: 3%;
+  }
