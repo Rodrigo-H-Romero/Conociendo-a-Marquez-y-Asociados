@@ -1,0 +1,25 @@
+.cuerror {
+  background-image: url(../assets/fondox.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.titerror {
+    font-family: $font-family;
+    color: $primary-color;
+    padding: 5%;
+
+}
+
+.error {
+    width: 500px;
+    height: 300px;
+    border-radius: 40%;
+    border: solid;
+}

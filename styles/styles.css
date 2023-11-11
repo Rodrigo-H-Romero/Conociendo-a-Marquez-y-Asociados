@@ -22,6 +22,30 @@ h1 {
   animation: aparecer 4s forwards;
 }
 
+.cuerror {
+  background-image: url(../assets/fondox.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titerror {
+  font-family: "Days One", sans-serif;
+  color: antiquewhite;
+  padding: 5%;
+}
+
+.error {
+  width: 500px;
+  height: 300px;
+  border-radius: 40%;
+  border: solid;
+}
+
 header {
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(166, 166, 245));
   display: flex;
@@ -357,6 +381,8 @@ p {
 
 .letra-chica {
   grid-area: letra-chica;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .tiempo {
@@ -402,6 +428,8 @@ p {
 .exper {
   font-size: x-large;
   margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .card {
