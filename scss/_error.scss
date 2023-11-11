@@ -23,3 +23,27 @@
     border-radius: 40%;
     border: solid;
 }
+
+a {
+  font-family: $font-family;
+      text-overflow: unset;
+      color: inherit;
+    
+}
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .error {
+    width: 80%;
+    animation: none;
+  }
+  
+  .titerror{
+    font-size: small;
+  }
+
+  .cuerror {
+    font-size: smaller;
+  }
+ 
+
+}

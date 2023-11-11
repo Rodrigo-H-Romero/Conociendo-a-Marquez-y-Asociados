@@ -46,6 +46,24 @@ h1 {
   border: solid;
 }
 
+a {
+  font-family: "Days One", sans-serif;
+  text-overflow: unset;
+  color: inherit;
+}
+
+@media screen and (min-width: 380px) and (max-width: 480px) {
+  .error {
+    width: 80%;
+    animation: none;
+  }
+  .titerror {
+    font-size: small;
+  }
+  .cuerror {
+    font-size: smaller;
+  }
+}
 header {
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(166, 166, 245));
   display: flex;
